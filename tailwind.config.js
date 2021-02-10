@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'black-pattern': "url('/public/img/bg-black.svg')",
+        'black-pattern': "url('./public/img/bg-black.svg')",
        }),
        textColor: theme => theme('colors'),
       textColor: {

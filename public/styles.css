@@ -4407,7 +4407,7 @@ video {
 }
 
 .bg-black-pattern{
-  background-image: url('/public/img/bg-black.svg');
+  background-image: url('./public/img/bg-black.svg');
 }
 
 .from-transparent{
@@ -36807,7 +36807,7 @@ html {
   }
 
   .sm\:bg-black-pattern{
-    background-image: url('/public/img/bg-black.svg');
+    background-image: url('./public/img/bg-black.svg');
   }
 
   .sm\:from-transparent{
@@ -69001,7 +69001,7 @@ html {
   }
 
   .md\:bg-black-pattern{
-    background-image: url('/public/img/bg-black.svg');
+    background-image: url('./public/img/bg-black.svg');
   }
 
   .md\:from-transparent{
@@ -101195,7 +101195,7 @@ html {
   }
 
   .lg\:bg-black-pattern{
-    background-image: url('/public/img/bg-black.svg');
+    background-image: url('./public/img/bg-black.svg');
   }
 
   .lg\:from-transparent{
@@ -133389,7 +133389,7 @@ html {
   }
 
   .xl\:bg-black-pattern{
-    background-image: url('/public/img/bg-black.svg');
+    background-image: url('./public/img/bg-black.svg');
   }
 
   .xl\:from-transparent{
@@ -165583,7 +165583,7 @@ html {
   }
 
   .\32xl\:bg-black-pattern{
-    background-image: url('/public/img/bg-black.svg');
+    background-image: url('./public/img/bg-black.svg');
   }
 
   .\32xl\:from-transparent{
