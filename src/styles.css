@@ -4,22 +4,22 @@
 @tailwind utilities;
 
 .link{
-    @apply font-bold ml-11 text-lg text-center tracking-wider;
+    @apply font-bold ml-11 text-sm md:text-lg text-center tracking-wider;
 }
 .paragraph{
-    @apply w-96	h-auto font-bold ;
+    @apply w-auto md:w-96 h-auto font-bold text-xl md:text-2xl ml-14 md:ml-36 mt-8 tracking-wide mr-1 ;
 }
 .title{
-    @apply font-bold text-secondary-200 text-3xl uppercase;
+    @apply font-bold text-secondary-200 text-3xl uppercase ml-14 md:ml-36 mt-20 tracking-wider;
 }
 .img-gray{
-    @apply bg-white w-72 h-48 md:w-600 md:h-400 rounded-md mr-36 mt-14 relative ;
+    @apply bg-white w-72 h-48 md:w-600 md:h-400 rounded-md md:mr-36 md:mt-14 relative ;
 }
 .proj{
     @apply  flex flex-row content-center justify-between items-center flex-wrap;
 }
 .icon{
-    @apply flex flex-row items-center justify-evenly mt-14 w-350 md:w-700;
+    @apply flex flex-row items-center justify-evenly mt-14 w-auto md:w-700;
 }
 .labels{
     @apply tracking-wide block mb-4 font-bold uppercase text-xl md:text-2xl text-gray-300;
@@ -31,6 +31,7 @@
     text-decoration-color:  #FF2E00!important;
     text-decoration: underline;
 }
+
 html {
 	scroll-behavior: smooth;
 }
