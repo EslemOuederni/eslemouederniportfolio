@@ -11,8 +11,10 @@ module.exports = {
        'primary': '#FFFFFF',
        'secondary': {
          100: '#FF2E00', //orange light
-         200: '#FF2E00' //orange dark
+         200: '#FF2E00', //orange dark
+         300: '#001220', //dark blue
        },
+       
      },
      fontFamily : {
        playfaire : ['Playfair Display']
@@ -27,7 +29,9 @@ module.exports = {
      colors:{
       'secondary': {
         100: '#FF2E00',
-        200: '#FF2E00'
+        200: '#FF2E00',
+        300: '#001220',
+
      }
     },
     },

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
     <title>Eslem Ouederni</title>
 </head>
+
 <body class="backgroundimg bg-center bg-no-repeat bg-cover text-white font-playfaire scrollable">
     <div class="overflow-hidden">
         <div>
-            <div class="flex flex-row justify-between md:justify-evenly md:items-center mt-8" >
+            <div class="flex flex-row justify-between md:justify-evenly md:items-center mt-8">
                 <nav class=" flex flex-row md:flex-none md:items-center">
                     <div class=" hidden md:flex flex-row items-center " id="navlinks">
                         <div class="link links"><a href="#works">WORK</a></div>
@@ -18,146 +21,200 @@
                         <div class="link links"><a href="#contact">CONTACT</a></div>
                     </div>
                     <div class="navlogo cursor-pointer justify-self-end text-left mr-4 md:hidden" id="menu">
-                        <span class="iconify " data-inline="false" data-icon="fluent:navigation-20-regular" style="color: #ffffff; font-size: 50px;"></span>
+                        <span class="iconify " data-inline="false" data-icon="fluent:navigation-20-regular"
+                            style="color: #ffffff; font-size: 50px;"></span>
                     </div>
                 </nav>
-               
+
             </div>
         </div>
-        <div class="mt-24 ml-20 flex flex-row flex-wrap justify-evenly items-center">
-            <div class="w-min mr-20 mt-11">
-                <p class="leading-normal font-bold lg:text-6xl md:text-5xl text-3xl">Eslem Ouederni: web developer<span class="text-secondary-100" >/ </span> app developer <span class="text-secondary-100" >/ </span>  designer<span class="text-secondary-100">/</span>learner...</p>
+        <div class="mt-24 ml-20 mr-20 flex flex-row flex-wrap justify-center items-center ">
+            <div class="w-min mr-20 mt-11 ">
+                <p class="leading-normal font-bold lg:text-6xl md:text-5xl text-3xl">Eslem Ouederni: web developer<span
+                        class="text-secondary-100">/ </span> app developer <span class="text-secondary-100">/ </span>
+                    designer<span class="text-secondary-100">/</span>learner...</p>
                 <p class="text-gray-300 tracking-widest leading-10 text-sm">Do you want to see my work? </p>
             </div>
-            <div class=" items-center text-center"><p class="text-8xl font-bold text-secondary-200 hidden md:block">EO</p></div>
-           
+                <div class="relative ">
+                    <div ><p class="text-8xl font-bold text-secondary-200 hidden md:block z-50 mb-10 ml-10">EO</p></div>
+                    <div class="absolute bottom-0 left-0 w-10 z-0 self-center">
+                        <svg id="visual" viewBox="0 0 900 600" class="w-60 h-250"  xmlns="http://www.w3.org/2000/svg"
+                       xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                       <path
+                           id="curve1"
+                           d="M0 464L30 466.3C60 468.7 120 473.3 180 473.3C240 473.3 300 468.7 360 466.7C420 464.7 480 465.3 540 474.7C600 484 660 502 720 507.3C780 512.7 840 505.3 870 501.7L900 498L900 601L870 601C840 601 780 601 720 601C660 601 600 601 540 601C480 601 420 601 360 601C300 601 240 601 180 601C120 601 60 601 30 601L0 601Z"
+                           fill="#ff2000" stroke-linecap="round" stroke-linejoin="miter"></path>
+                       <path
+                           id="curve2"
+                           d="M0 464L30 469.5C60 475 120 486 180 479.5C240 473 300 449 360 441.8C420 434.7 480 444.3 540 461.8C600 479.3 660 504.7 720 501.3C780 498 840 466 870 450L900 434L900 601L870 601C840 601 780 601 720 601C660 601 600 601 540 601C480 601 420 601 360 601C300 601 240 601 180 601C120 601 60 601 30 601L0 601Z"
+                           fill="#ffffff" stroke-linecap="round" stroke-linejoin="miter" style="visibility: hidden;"></path>
+                   </svg>
+                   <script>
+                       const wavy = KUTE.fromTo(
+                           '#curve1',
+                           {path : '#curve1'},
+                           {path : '#curve2'},
+                           {repeat : 1000, duration : 1000, yoyo : true}
+                       );
+                       wavy.start();
+                   </script>
+                   </div>   
+                </div> 
         </div>
         <!-- scroll down -->
-        <div class="grid justify-items-center mt-32" data-aos="zoom-in" data-aos-duration="4000"  >
-            <div> <p>Scroll Down</p> </div>
-            <div class="mt-4" > <span class="iconify text-center animate-bounce" data-inline="false" data-icon="bi:arrow-down" style="color: #ffffff; font-size: 25px;"></span> </div>
-            
+        <div class="grid justify-items-center mt-32" data-aos="zoom-in" data-aos-duration="4000">
+            <div>
+                <p>Scroll Down</p>
+            </div>
+            <div class="mt-4"> <span class="iconify text-center animate-bounce" data-inline="false"
+                    data-icon="bi:arrow-down" style="color: #ffffff; font-size: 25px;"></span> </div>
+
             <!-- <div> <p> <br> . <br> . <br> . </p></div> -->
         </div>
-<!-- works -->
-        <div class="works" id="works">
-            <div class="relative ml-8 m:ml-24 mt-32" data-aos="fade-in" data-aos-duration="1500">
-                <h2 class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase">Works</h2>
-                <div class="absolute top-5 left-4">
-                    <h2 class="lg:text-5xl text-4xl font-bold uppercase ">My Works ...</h2>
-                </div>
-            </div>
-            <!-- projects -->
-            <div class="proj"  data-aos="fade-in" data-aos-duration="1500">
-                <div class="title-paragraph">
-                    <h3 class="title">Vokart</h3>
-                    <p class="paragraph "> A website for ceramics, that was designed by a friend of mine.
-                        Still not responsive.
-                    <br> Built with : <br class="text-secondary-200"> HTML5, CSS, Bootstrap
-                   
-                </p>
-                <div class="flex flex-row items-center justify-center w-auto">
-                   <div class="flex flex-row items-center mr-2 md:mr-8">
-                    <a href="https://github.com/EslemOuederni/Vokart" target="_blank"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
-                    <p class="text-2xl">Github</p>
-                   </div>
-                    <div class="flex flex-row items-center">
-                        <a href="https://eslemouederni.github.io/Vokart/" target="_blank"><span class="iconify hover:text-secondary-200"data-inline="false" data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
-                        <p class="text-2xl ml-2">Live</p>
+        <!-- works -->
+        <section>
+            <div class="works " id="works">
+                <div class="relative ml-8 m:ml-24 mt-32" data-aos="fade-in" data-aos-duration="1500">
+                    <h2 class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase">Works</h2>
+                    <div class="absolute top-5 left-4">
+                        <h2 class="lg:text-5xl text-4xl font-bold uppercase ">My Works ...</h2>
                     </div>
                 </div>
-                </div>
-                <!-- vokart -->
-                <div class="project-image m-auto md:ml-42 ">
-                    <div class="img-gray w-1/2 " data-aos="fade-left"  data-aos-duration="500">
-                        <div><img class="object-fit max-h-full max-w-full content-center" src="./img/Vokart - Dark.svg" style="width:100%; height:auto;"  alt=""></div>
-                        <div class="bottom-2  md:-right-12 absolute">
-                            <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">01</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Personal portfolio -->
-            <div class="proj " data-aos="fade-in" data-aos-duration="1500" >
-                <div class="title-paragraph">
-                    <h3 class="title ">Personal Portfolio</h3>
-                    <p class="paragraph "> A personal Portfolio to share my works with others.
-                    <br> Built with : <br> HTML5, Tailwind CSS, JS 
+                <!-- projects -->
+                <div class="proj" data-aos="fade-in" data-aos-duration="1500">
+                    <div class="title-paragraph">
+                        <h3 class="title">Vokart</h3>
+                        <p class="paragraph "> A website for ceramics, that was designed by a friend of mine.
+                            Still not responsive.
+                            <br> Built with : <br class="text-secondary-200"> HTML5, CSS, Bootstrap
+
                         </p>
                         <div class="flex flex-row items-center justify-center w-auto">
                             <div class="flex flex-row items-center mr-2 md:mr-8">
-                             <a href="https://github.com/EslemOuederni/eslemouederniportfolio" target="_blank"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
-                             <p class="text-2xl">Github</p>
+                                <a href="https://github.com/EslemOuederni/Vokart" target="_blank"><span
+                                        class="iconify hover:text-secondary-200" data-inline="false"
+                                        data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
+                                <p class="text-2xl">Github</p>
                             </div>
-                             <div class="flex flex-row items-center">
-                                 <a href="https://eslemouederni.github.io/eslemouederniportfolio/public/"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
-                                 <p class="text-2xl ml-2">Live</p>
-                             </div>
-                         </div>
-                </div>
-                <div class="project-image m-auto md:ml-42">
-                    <div class="img-gray flex"  data-aos="fade-left"  data-aos-duration="500">
-                        <img class="object-fit max-h-full max-w-full content-center"src="./img/Desktop - Dark.svg" style="width:100%; height:auto;"  alt="">
-                         <div class="bottom-2 md:-right-16 absolute">
-                            <h1 class="font-bold text-7xl md:text-9xl text-secondary-200">02</h1>
-                        </div> 
+                            <div class="flex flex-row items-center">
+                                <a href="https://eslemouederni.github.io/Vokart/" target="_blank"><span
+                                        class="iconify hover:text-secondary-200" data-inline="false"
+                                        data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
+                                <p class="text-2xl ml-2">Live</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- vokart -->
+                    <div class="project-image m-auto md:ml-42 ">
+                        <div class="img-gray w-1/2 " data-aos="fade-left" data-aos-duration="500">
+                            <div><img class="object-fit max-h-full max-w-full content-center"
+                                    src="./img/Vokart - Dark.svg" style="width:100%; height:auto;" alt=""></div>
+                            <div class="bottom-2  md:-right-12 absolute">
+                                <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">01</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- app -->
-            <div class="proj" data-aos="fade-in" data-aos-duration="1500" >
-                <div class="title-paragraph">
-                    <h3 class="title ">My Space</h3>
-                    <p class="paragraph text-xl md:text-2xl ml-24 m:ml-36 mt-8 tracking-wide"> An educational android mobile game.Built with a friend for a university android class project. It has the list of all planets in the solar system with informations about each one of them. Also a quiz to test the knowledge of the kids about what they have learnt so far. 
-                        <br> Built with : <br> Android Studio, Java, SQLite
+                <!-- Personal portfolio -->
+                <div class="proj " data-aos="fade-in" data-aos-duration="1500">
+                    <div class="title-paragraph">
+                        <h3 class="title ">Personal Portfolio</h3>
+                        <p class="paragraph "> A personal Portfolio to share my works with others.
+                            <br> Built with : <br> HTML5, Tailwind CSS, JS
+                        </p>
+                        <div class="flex flex-row items-center justify-center w-auto">
+                            <div class="flex flex-row items-center mr-2 md:mr-8">
+                                <a href="https://github.com/EslemOuederni/eslemouederniportfolio" target="_blank"><span
+                                        class="iconify hover:text-secondary-200" data-inline="false"
+                                        data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
+                                <p class="text-2xl">Github</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <a href="https://eslemouederni.github.io/eslemouederniportfolio/public/"><span
+                                        class="iconify hover:text-secondary-200" data-inline="false"
+                                        data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
+                                <p class="text-2xl ml-2">Live</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-image m-auto md:ml-42">
+                        <div class="img-gray flex" data-aos="fade-left" data-aos-duration="500">
+                            <img class="object-fit max-h-full max-w-full content-center" src="./img/Desktop - Dark.svg"
+                                style="width:100%; height:auto;" alt="">
+                            <div class="bottom-2 md:-right-16 absolute">
+                                <h1 class="font-bold text-7xl md:text-9xl text-secondary-200">02</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- app -->
+                <div class="proj" data-aos="fade-in" data-aos-duration="1500">
+                    <div class="title-paragraph">
+                        <h3 class="title ">My Space</h3>
+                        <p class="paragraph text-xl md:text-2xl ml-24 m:ml-36 mt-8 tracking-wide"> An educational
+                            android mobile game.Built with a friend for a university android class project. It has the
+                            list of all planets in the solar system with informations about each one of them. Also a
+                            quiz to test the knowledge of the kids about what they have learnt so far.
+                            <br> Built with : <br> Android Studio, Java, SQLite
                         </p>
                         <br>
                         <div class="flex flex-row items-center justify-center w-auto">
                             <div class="flex flex-row items-center mr-2 md:mr-8">
-                             <a href="https://github.com/oueslatimohamed/PMM/" target="_blank"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
-                             <p class="text-2xl">Github</p>
+                                <a href="https://github.com/oueslatimohamed/PMM/" target="_blank"><span
+                                        class="iconify hover:text-secondary-200" data-inline="false"
+                                        data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
+                                <p class="text-2xl">Github</p>
                             </div>
-                         </div>
-                </div>
-                <div class="project-image m-auto md:ml-42">
-                    <div class="img-gray"  data-aos="fade-left"  data-aos-duration="500">
-                        <img class="object-fit max-h-full max-w-full content-center"src="./img/iPhone X - Silver.svg" style="width:100%; height:auto;"  alt="">
-                         <div class="bottom-2 md:-right-16 absolute">
-                            <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">03</h1>
+                        </div>
+                    </div>
+                    <div class="project-image m-auto md:ml-42">
+                        <div class="img-gray" data-aos="fade-left" data-aos-duration="500">
+                            <img class="object-fit max-h-full max-w-full content-center"
+                                src="./img/iPhone X - Silver.svg" style="width:100%; height:auto;" alt="">
+                            <div class="bottom-2 md:-right-16 absolute">
+                                <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">03</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
             <!-- Kadya -->
-        <div class="proj " data-aos="fade-in" data-aos-duration="1500" >
-            <div class="title-paragraph">
+            <div class="proj " data-aos="fade-in" data-aos-duration="1500">
+                <div class="title-paragraph">
                     <h3 class="title ">Kadya</h3>
-                    <p class="paragraph "> An app to handle consummer's shopping. It was build as part of last year of studies internship, in a group of four people.
-                    <br> Built with : <br> React Native, Flask 
-                        </p>
+                    <p class="paragraph "> An app to handle consummer's shopping. It was build as part of last year of
+                        studies internship, in a group of four people.
+                        <br> Built with : <br> React Native, Flask
+                    </p>
                     <div class="flex flex-row items-center justify-center w-auto">
-                            <div class="flex flex-row items-center mr-2 md:mr-8">
-                             <a href="https://github.com/EslemOuederni/eslemouederniportfolio" target="_blank"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
-                             <p class="text-2xl">Github</p>
-                            </div>
-                             <div class="flex flex-row items-center">
-                                 <a href="https://eslemouederni.github.io/eslemouederniportfolio/public/"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
-                                 <p class="text-2xl ml-2">Live</p>
-                             </div>
+                        <div class="flex flex-row items-center mr-2 md:mr-8">
+                            <a href="https://github.com/EslemOuederni/eslemouederniportfolio" target="_blank"><span
+                                    class="iconify hover:text-secondary-200" data-inline="false"
+                                    data-icon="ei:sc-github" style="font-size: 75px;"></span></a>
+                            <p class="text-2xl">Github</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <a href="https://eslemouederni.github.io/eslemouederniportfolio/public/"><span
+                                    class="iconify hover:text-secondary-200" data-inline="false"
+                                    data-icon="fluent:live-20-regular" style="font-size: 50px;"></span></a>
+                            <p class="text-2xl ml-2">Live</p>
+                        </div>
                     </div>
                 </div>
                 <div class="project-image m-auto md:ml-42">
-                    <div class="img-gray flex"  data-aos="fade-left"  data-aos-duration="500">
-                        <img class="object-fit max-h-full max-w-full content-center"src="./img/kadya.svg" style="width:100%; height:auto;"  alt="">
-                         <div class="bottom-2 md:-right-16 absolute">
+                    <div class="img-gray flex" data-aos="fade-left" data-aos-duration="500">
+                        <img class="object-fit max-h-full max-w-full content-center" src="./img/kadya.svg"
+                            style="width:100%; height:auto;" alt="">
+                        <div class="bottom-2 md:-right-16 absolute">
                             <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">04</h1>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
         <!-- skills -->
-        <div class="skills mt-32" id="skills">
+        <div class="skills mt-32 backgroundimgCurved bg-center bg-no-repeat bg-cover " id="skills">
             <div class="relative ml-8 m:ml-24 mt-32" data-aos="fade-in" data-aos-duration="1500">
                 <h2 class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase">Skills</h2>
                 <div class="absolute top-5 left-4">
@@ -165,81 +222,110 @@
                 </div>
             </div>
             <div class="icons w-auto ml-8 grid justify-items-center">
-               <div class="ui icon  " data-aos="fade-in" data-aos-duration="1500">
-                <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="foundation:html5" style="color: #ffffff; font-size: 95px;"></span></div>
-                <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="fa-brands:css3-alt" style="color: #ffffff; font-size: 75px;"></span></div>
-                <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="cib:js" style="color: #ffffff; font-size: 73px;"></span></div>
-                <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="fa-brands:bootstrap" style="color: #ffffff; font-size: 73px;"></span> </div>
-                <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="mdi:tailwind" style="color: #ffffff; font-size: 62px;"></span> </div>
-               </div>
+                <div class="ui icon  " data-aos="fade-in" data-aos-duration="1500">
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="foundation:html5"
+                            style="color: #ffffff; font-size: 95px;"></span></div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="fa-brands:css3-alt"
+                            style="color: #ffffff; font-size: 75px;"></span></div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="cib:js"
+                            style="color: #ffffff; font-size: 73px;"></span></div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="fa-brands:bootstrap"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="mdi:tailwind"
+                            style="color: #ffffff; font-size: 62px;"></span> </div>
+                </div>
                 <div class="backend icon " data-aos="fade-in" data-aos-duration="1500">
-                    <div><span class="iconify w-1/2 md:w-full " data-inline="false" data-icon="bx:bxl-react" style="color: #ffffff; font-size: 73px;"></span>  </div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="bx:bxl-python" style="color: #ffffff; font-size: 73px;"></span></div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="cib:java" style="color: #ffffff; font-size: 75px;"></span></div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:android-filled" style="color: #ffffff; font-size: 73px;"></span>  </div>
+                    <div><span class="iconify w-1/2 md:w-full " data-inline="false" data-icon="bx:bxl-react"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="bx:bxl-python"
+                            style="color: #ffffff; font-size: 73px;"></span></div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="cib:java"
+                            style="color: #ffffff; font-size: 75px;"></span></div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:android-filled"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
                 </div>
                 <div class="vcontrol icon" data-aos="fade-in" data-aos-duration="1500">
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="simple-icons:mysql" style="color: #ffffff; font-size: 81px;"></span>                    </div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="mdi:git" style="color: #ffffff; font-size: 75px;"></span>                    </div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:github-filled" style="color: #ffffff; font-size: 73px;"></span>                    </div>
-                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:code-filled" style="color: #ffffff; font-size: 73px;"></span>                    </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="simple-icons:mysql"
+                            style="color: #ffffff; font-size: 81px;"></span> </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="mdi:git"
+                            style="color: #ffffff; font-size: 75px;"></span> </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:github-filled"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
+                    <div><span class="iconify w-1/2 md:w-full" data-inline="false" data-icon="ant-design:code-filled"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
                 </div>
                 <div class="design icon" data-aos="fade-in" data-aos-duration="1500">
-                    <div><span class="iconify w-1/4 md:w-full" data-inline="false" data-icon="bx:bxl-figma" style="color: #ffffff; font-size: 73px;"></span>                    </div>
-                    <div><span class="iconify w-1/4 md:w-full" data-inline="false" data-icon="file-icons:adobe-photoshop" style="color: #ffffff; font-size: 73px;"></span>                    </div>
+                    <div><span class="iconify w-1/4 md:w-full" data-inline="false" data-icon="bx:bxl-figma"
+                            style="color: #ffffff; font-size: 73px;"></span> </div>
+                    <div><span class="iconify w-1/4 md:w-full" data-inline="false"
+                            data-icon="file-icons:adobe-photoshop" style="color: #ffffff; font-size: 73px;"></span>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- contact me -->
-        <div class="contact" id="contact">
-            <div class="relative ml-8 m:ml-24 mt-32" data-aos="fade-in" data-aos-duration="1500">
-                <h2 class="lg:text-6xl text-4xl opacity-20 font-bold text-secondary-200 uppercase">contact</h2>
-                <div class="absolute top-5 left-3">
-                    <h2 class="lg:text-5xl text-3xl font-bold uppercase ">contact me</h2>
+        <section class="backgroundTopCurved bg-cover bg-center bg-no-repeat mt-0">
+            <div class="contact" id="contact">
+                <div class="relative ml-8 m:ml-24" data-aos="fade-in" data-aos-duration="1500">
+                    <h2 class="lg:text-6xl text-4xl opacity-20 font-bold text-secondary-200 uppercase">contact</h2>
+                    <div class="absolute top-5 left-3">
+                        <h2 class="lg:text-5xl text-3xl font-bold uppercase ">contact me</h2>
+                    </div>
+                </div>
+
+                <div>
+                    <form action="https://formspree.io/f/mpzongdo" method="POST" id="my-form">
+                        <div class=" grid justify-items-center mt-14">
+                            <div class="name" data-aos="fade-in" data-aos-duration="1500">
+                                <label for="fname" class="labels">Your Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Joe Doe" class="box ">
+                            </div>
+
+                            <div class="email mt-4" data-aos="fade-in" data-aos-duration="1500">
+                                <label for="email" class="labels">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="joe@example.com" class="box ">
+                            </div>
+
+                            <div class="msg mt-4" data-aos="fade-in" data-aos-duration="1500">
+                                <label for="message" class="labels">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Write something.."
+                                    style="height:150px" class="box"></textarea>
+                            </div>
+                            <div class="mt-11 mb-4" data-aos="fade-in" data-aos-duration="1500">
+                                <button id="my-form-button"
+                                    class="box flex flex-row justify-center items-center focus:outline-none hover:bg-secondary-200">
+                                    <div><span class="iconify " data-inline="false" data-icon="bytesize:send"
+                                            style=" font-size: 30px;" onmouseover="this.style.color=white"></span>
+                                    </div>
+                                    <div class="font-bold text-2xl ml-4">Submit</div>
+                                </button>
+                            </div>
+                            <p id="my-form-status"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="flex flex-row justify-center mt-6 mb-11 ">
+                    <div class="github"> <a href="https://github.com/EslemOuederni" target="_blank"><span
+                                class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github"
+                                style="font-size: 50px;"></span></a></div>
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"><span
+                                class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-linkedin"
+                                style=" font-size: 50px;"></span> </a></div>
                 </div>
             </div>
+        </section>
 
-            <div >
-                <form action="https://formspree.io/f/mpzongdo" method="POST" id="my-form">
-                    <div class=" grid justify-items-center mt-14">
-                       <div class="name" data-aos="fade-in" data-aos-duration="1500">
-                        <label for="fname" class="labels">Your Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Joe Doe" class="box ">
-                       </div>
 
-                       <div class="email mt-4" data-aos="fade-in" data-aos-duration="1500">
-                        <label for="email" class="labels">Your Email</label>
-                        <input type="email" id="email" name="email" placeholder="joe@example.com" class="box ">
-                       </div>
-
-                        <div class="msg mt-4" data-aos="fade-in" data-aos-duration="1500">
-                            <label for="message" class="labels">Your Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.." style="height:150px" class="box"></textarea>
-                        </div>
-                        <div class="mt-11 mb-4" data-aos="fade-in" data-aos-duration="1500">
-                            <button id="my-form-button" class="box flex flex-row justify-center items-center focus:outline-none hover:bg-secondary-200">
-                                <div><span class="iconify " data-inline="false" data-icon="bytesize:send" style=" font-size: 30px;" onmouseover="this.style.color=white"></span> </div>
-                                <div class="font-bold text-2xl ml-4">Submit</div>
-                            </button>
-                        </div>
-                        <p id="my-form-status"></p>
-                    </div>
-                </form>
-            </div>
-            <div class="flex flex-row justify-center mt-6 mb-11 ">
-                <div class="github"> <a href="https://github.com/EslemOuederni" target="_blank"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-github" style="font-size: 50px;"></span></a></div>
-                <div class="linkedin"><a href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"><span class="iconify hover:text-secondary-200" data-inline="false" data-icon="ei:sc-linkedin" style=" font-size: 50px;"></span> </a></div>
-            </div>
-        </div>
-       
     </div>
 
     <!-- <script src="https://unpkg.com/@barba/core"></script> -->
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-<script src="./form.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
+    <script src="./form.js"></script>
 </body>
+
 </html>
