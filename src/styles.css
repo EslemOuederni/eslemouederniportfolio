@@ -19,7 +19,7 @@
     @apply  flex flex-row content-center justify-between items-center flex-wrap;
 }
 .icon{
-    @apply flex flex-row items-center justify-evenly mt-14 w-auto md:w-700;
+    @apply flex flex-row items-center justify-evenly mt-2 md:mt-14 md:w-700;
 }
 .labels{
     @apply tracking-wide block mb-4 font-bold uppercase text-xl md:text-2xl text-white;

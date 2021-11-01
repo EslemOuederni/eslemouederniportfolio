@@ -33082,12 +33082,12 @@ video {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 3.5rem;
-  width: auto;
+  margin-top: 0.5rem;
 }
 
 @media (min-width: 768px){
   .icon{
+    margin-top: 3.5rem;
     width: 47rem;
   }
 }
