@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -32995,7 +32995,7 @@ video {
           animation: bounce 1s infinite;
 }
 
-.link{
+.link {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -33011,7 +33011,7 @@ video {
   }
 }
 
-.paragraph{
+.paragraph {
   font-weight: 700;
   height: auto;
   font-size: 1.25rem;
@@ -33032,7 +33032,7 @@ video {
   }
 }
 
-.title{
+.title {
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -33050,9 +33050,7 @@ video {
   }
 }
 
-.img-gray{
-  --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+.img-gray {
   border-radius: 0.375rem;
   height: 12rem;
   position: relative;
@@ -33068,7 +33066,7 @@ video {
   }
 }
 
-.proj{
+.proj {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -33080,7 +33078,7 @@ video {
   max-width: 80rem;
 }
 
-.icon{
+.icon {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33095,7 +33093,7 @@ video {
   }
 }
 
-.labels{
+.labels {
   display: block;
   font-weight: 700;
   font-size: 1.25rem;
@@ -33121,7 +33119,7 @@ video {
   }
 }
 
-.box{
+.box {
   background-color: transparent;
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
@@ -33148,9 +33146,9 @@ video {
   }
 }
 
-.links:hover{
-  -webkit-text-decoration-color:  #FF2E00!important;
-          text-decoration-color:  #FF2E00!important;
+.links:hover {
+  -webkit-text-decoration-color: #ff2e00 !important;
+          text-decoration-color: #ff2e00 !important;
   text-decoration: underline;
 }
 
@@ -33158,34 +33156,46 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  font-family: "Playfair Display", serif, Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #7d938a;
+  color: #fffffa;
+  opacity: 78%;
 }
 
-.backgroundimg{
-  background-color: #000000;
+nav {
+  background-color: #687871;
+}
+
+.introduction {
+  color: #000000;
+  width: 800px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.backgroundimg {
+  background-image: url("img/bg-black.svg");
 }
 
 .backgroundimgCurved {
   background-image: url("img/backgroundCurves.svg");
 }
 
-.backgroundTopCurved {
-  background-image: url("img/img.svg");
-  background-attachment: fixed;
-}
-
-.heroImg {
-  background-image: url("img/hero.svg");
-}
-
-.link-undeline{
-  background-image:linear-gradient(0deg,rgb(214, 85, 46) 0,rgba(255, 180, 170, 0.4) 30%,transparent 40%,transparent);
+.link-undeline {
+  background-image: linear-gradient(
+    0deg,
+    rgb(214, 85, 46) 0,
+    rgba(155, 38, 22, 0.4) 30%,
+    transparent 40%,
+    transparent
+  );
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
   html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
   }
 }
 

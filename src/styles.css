@@ -1,64 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.link{
-    @apply font-bold ml-11 text-sm md:text-lg text-center tracking-wider;
+.link {
+  @apply font-bold ml-11 text-sm md:text-lg text-center tracking-wider;
 }
-.paragraph{
-    @apply w-auto md:w-96 h-auto font-bold text-xl md:text-2xl ml-14 md:ml-36 mt-8 tracking-wide mr-1 ;
+.paragraph {
+  @apply w-auto md:w-96 h-auto font-bold text-xl md:text-2xl ml-14 md:ml-36 mt-8 tracking-wide mr-1;
 }
-.title{
-    @apply font-bold text-secondary-200 text-3xl uppercase ml-14 md:ml-36 mt-20 tracking-wider;
+.title {
+  @apply font-bold text-secondary-200 text-3xl uppercase ml-14 md:ml-36 mt-20 tracking-wider;
 }
-.img-gray{
-    @apply bg-white w-72 h-48 md:w-600 md:h-400 rounded-md md:mr-36 md:mt-14 relative ;
+.img-gray {
+  @apply w-72 h-48 md:w-600 md:h-400 rounded-md md:mr-36 md:mt-14 relative;
 }
-.proj{
-    @apply  flex flex-row content-center justify-between items-center flex-wrap mx-auto max-w-7xl;
+.proj {
+  @apply flex flex-row content-center justify-between items-center flex-wrap mx-auto max-w-7xl;
 }
-.icon{
-    @apply flex flex-row items-center justify-evenly mt-2 md:mt-14 md:w-auto;
+.icon {
+  @apply flex flex-row items-center justify-evenly mt-2 md:mt-14 md:w-auto;
 }
-.labels{
-    @apply tracking-wide block mb-4 font-bold uppercase text-xl md:text-2xl sm:text-sm text-white;
+.labels {
+  @apply tracking-wide block mb-4 font-bold uppercase text-xl md:text-2xl sm:text-sm text-white;
 }
-.box{
-    @apply w-60 md:w-500 h-14 rounded border-2 border-white bg-transparent focus:border-secondary-300 outline-none p-4;
+.box {
+  @apply w-60 md:w-500 h-14 rounded border-2 border-white bg-transparent focus:border-secondary-300 outline-none p-4;
 }
-.links:hover{
-    text-decoration-color:  #FF2E00!important;
-    text-decoration: underline;
+.links:hover {
+  text-decoration-color: #ff2e00 !important;
+  text-decoration: underline;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  font-family: "Playfair Display", serif, Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #7d938a;
+  color: #fffffa;
+  opacity: 78%;
 }
-.backgroundimg{
-    background-color: #000000;
-    
+nav {
+  background-color: #687871;
+}
+.introduction {
+  color: #000000;
+  width: 800px;
+  font-size: 30px;
+  line-height: 50px;
+}
+.backgroundimg {
+  background-image: url("img/bg-black.svg");
 }
 .backgroundimgCurved {
-    background-image: url("img/backgroundCurves.svg");
+  background-image: url("img/backgroundCurves.svg");
 }
-.backgroundTopCurved {
-    background-image: url("img/img.svg");
-    background-attachment: fixed;
-
-}
-.heroImg {
-    background-image: url("img/hero.svg");
-}
-.link-undeline{
-   background-image:linear-gradient(0deg,rgb(214, 85, 46) 0,rgba(255, 180, 170, 0.4) 30%,transparent 40%,transparent);
-
+.link-undeline {
+  background-image: linear-gradient(
+    0deg,
+    rgb(214, 85, 46) 0,
+    rgba(155, 38, 22, 0.4) 30%,
+    transparent 40%,
+    transparent
+  );
 }
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: smooth;
+  }
 }
