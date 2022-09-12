@@ -31,7 +31,9 @@
   text-decoration-color: #ff2e00 !important;
   text-decoration: underline;
 }
-
+.introduction {
+  @apply w-96 text-2xl text-secondary-300 md:w-700 md:text-3xl leading-10;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -46,10 +48,6 @@ nav {
   background-color: #687871;
 }
 .introduction {
-  color: #000000;
-  width: 800px;
-  font-size: 30px;
-  line-height: 50px;
 }
 .backgroundimg {
   background-image: url("img/bg-black.svg");

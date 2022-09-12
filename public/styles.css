@@ -11630,6 +11630,10 @@ video {
   font-family: Playfair Display;
 }
 
+.font-roboto{
+  font-family: Roboto;
+}
+
 .font-thin{
   font-weight: 100;
 }
@@ -33152,6 +33156,23 @@ video {
   text-decoration: underline;
 }
 
+.introduction {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 18, 32, var(--tw-text-opacity));
+  width: 24rem;
+}
+
+@media (min-width: 768px){
+  .introduction{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    width: 47rem;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -33169,10 +33190,6 @@ nav {
 }
 
 .introduction {
-  color: #000000;
-  width: 800px;
-  font-size: 30px;
-  line-height: 50px;
 }
 
 .backgroundimg {
@@ -44280,6 +44297,10 @@ nav {
 
   .sm\:font-playfaire{
     font-family: Playfair Display;
+  }
+
+  .sm\:font-roboto{
+    font-family: Roboto;
   }
 
   .sm\:font-thin{
@@ -76652,6 +76673,10 @@ nav {
     font-family: Playfair Display;
   }
 
+  .md\:font-roboto{
+    font-family: Roboto;
+  }
+
   .md\:font-thin{
     font-weight: 100;
   }
@@ -109020,6 +109045,10 @@ nav {
 
   .lg\:font-playfaire{
     font-family: Playfair Display;
+  }
+
+  .lg\:font-roboto{
+    font-family: Roboto;
   }
 
   .lg\:font-thin{
@@ -141392,6 +141421,10 @@ nav {
     font-family: Playfair Display;
   }
 
+  .xl\:font-roboto{
+    font-family: Roboto;
+  }
+
   .xl\:font-thin{
     font-weight: 100;
   }
@@ -173760,6 +173793,10 @@ nav {
 
   .\32xl\:font-playfaire{
     font-family: Playfair Display;
+  }
+
+  .\32xl\:font-roboto{
+    font-family: Roboto;
   }
 
   .\32xl\:font-thin{
