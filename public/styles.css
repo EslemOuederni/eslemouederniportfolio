@@ -33189,7 +33189,12 @@ nav {
   background-color: #687871;
 }
 
-.introduction {
+.index {
+  background-image: url("img/separator.png");
+  background-repeat: repeat-x;
+  height: 10px;
+  border: 0;
+  display: block;
 }
 
 .backgroundimg {
