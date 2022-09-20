@@ -13,26 +13,31 @@
     class="bg-center bg-no-repeat bg-cover content-center text-white scrollable"
   >
     <div class="backgroundTopCurved" id="up">
-      <nav class="flex flex-row justify-between p-4 mt-0 w-full z-10 top-0">
+      <nav
+        class="flex flex-row justify-between items-center p-4 mt-0 w-full z-10 top-0"
+      >
         <div class="link links">
-          <a href="#" class="text-2xl"
+          <a href="./index.html" class="hidden md:text-2xl md:block"
             ><span class="text-secondary-200">ESLEM</span> OUEDERNI</a
+          >
+          <a href="./index.html" class="text-2xl md:hidden"
+            ><span class="text-secondary-200">E</span> O</a
           >
         </div>
         <div class="flex flex-row" id="navlinks">
-          <div class="link links"><a href="#works">WORK</a></div>
-          <div class="link links"><a href="#skills">SKILLS</a></div>
-          <div class="link links"><a href="#contact">CONTACT</a></div>
+          <div class="link links"><a href="#works">ABOUT ME</a></div>
+          <div class="link links"><a href="#skills">WORK</a></div>
+          <div class="link links"><a href="#contact">SKILLS</a></div>
         </div>
       </nav>
       <div class="mx-auto h-screen md:mt-48 max-w-5xl">
         <div class="mt-24">
           <p
-            class="text-5xl leading-normal mt-4 font-bold lg:text-7xl md:text-4xl"
+            class="text-4xl leading-normal ml-4 font-bold lg:text-7xl md:text-6xl"
           >
             ESLEM OUEDERNI
           </p>
-          <p class="text-2xl mt-4 md:text-3xl lg:text-4xl">
+          <p class="text-2xl ml-4 mt-4 md:text-3xl lg:text-4xl">
             developer<span class="text-secondary-200">,</span> student<span
               class="text-secondary-200 font-serif"
             >
@@ -63,9 +68,10 @@
             </div>
           </div>
           <div class="mt-8 mb-8 flex justify-center md:justify-start">
-            <p class="introduction">
+            <p class="introduction w-min">
               Hello, I'm Eslem ! welcome to my portfolio. I'm passionate about
-              web <span class="font-serif">& </span>mobile development. I'm a
+              web
+              <span class="font-serif">& </span>mobile development. I'm a
               computer science student and a freelance teacher with
               <a class="link-undeline" href="https://codefirstgirls.com/">
                 Code First Girls</a
@@ -96,8 +102,12 @@
       </div>
       <!-- education -->
       <hr class="index" />
-      <section class="skills mt-32 h-screen md:w-auto" id="skills">
-        <div class="relative mt-32" data-aos="fade-in" data-aos-duration="1500">
+      <section class="skills h-screen md:w-auto" id="skills">
+        <div
+          class="relative mt-12 md:32"
+          data-aos="fade-in"
+          data-aos-duration="1500"
+        >
           <h2
             class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase"
           >
@@ -109,7 +119,7 @@
             </h2>
           </div>
           <div
-            class="flex flex-col justify-center lg:flex-row md:flex-row md:justify-around mt-12"
+            class="flex flex-col ml-2 md:flex-row justify-around md:mt-12 lg:flex-row"
           >
             <div class="education">
               <div class="title">
@@ -179,7 +189,7 @@
       </section>
       <!-- works -->
       <section class="">
-        <div class="works" id="works">
+        <div class="works mt-12 md:mt-20" id="works">
           <div class="relative" data-aos="fade-in" data-aos-duration="1500">
             <h2
               class="ml-2 lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase"
@@ -482,9 +492,8 @@
           </div>
         </div>
       </section>
-
       <!-- skills -->
-      <section class="skills p-48 h-screen md:w-auto" id="skills">
+      <section class="skills h-screen" id="skills">
         <div class="relative mt-32" data-aos="fade-in" data-aos-duration="1500">
           <h2
             class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase"
@@ -496,36 +505,69 @@
               My Skills ...
             </h2>
           </div>
-          <div class="flex flex-row justify-evenly items-center mt-20">
+          <div
+            class="flex flex-col items-center mt-12 md:flex-row md:justify-evenly md:items-center"
+          >
             <div class="flex flex-col">
               <h3 class="text-3xl text-secondary-200 font-medium">FRONTEND</h3>
-              <p class="flex leading-10 text-xl">
-                html5<br />
-                javascript <br />react native
+              <p class="leading-10 text-2xl">
+                <div class="skill">html5</div>
+                <div class="skill">Javascript</div>
+                <div class="skill">React Native</div>
               </p>
             </div>
             <div class="flex flex-col">
               <h3 class="text-3xl text-secondary-200 font-medium">BACKEND</h3>
-              <p class="flex leading-10 text-xl">
-                Node <br />java<br />
-                javafx<br />
-                symfony<br />
-                express <br />
-                mysql<br />
-                mongodb
+              <p class="leading-10 text-xl">
+                <div  class="skill">Node</div>
+                <div class="skill">Java</div>
+                <div class="skill">JavaFX</div>
+                <div class="skill">Symfony</div>
+                <div class="skill">Express</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">MongoDB</div>
               </p>
             </div>
             <div class="flex flex-col">
               <h3 class="text-3xl text-secondary-200 font-medium">TOOLS</h3>
-              <p class="flex leading-10 text-xl">
-                Git <br />
-                vscode<br />
-                figma
+              <p class="leading-10 text-xl">
+                <div class="skill">Git</div>
+                <div class="skill">Vscode</div>
+                <div class="skill">Figma</div>
               </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- footer -->
+      <footer class="h-auto">
+        <div class="flex flex-row justify-center mt-6 mb-2">
+          <div class="github">
+            <a href="https://github.com/EslemOuederni" target="_blank"
+              ><span
+                class="iconify hover:text-secondary-200"
+                data-inline="false"
+                data-icon="ei:sc-github"
+                style="font-size: 50px"
+              ></span
+            ></a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"
+              ><span
+                class="iconify hover:text-secondary-200"
+                data-inline="false"
+                data-icon="ei:sc-linkedin"
+                style="font-size: 50px"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <p class="text-center text-base align-middle">Made with 
+          <img class="inline-block" src="./img/coding-svgrepo-com.svg" alt="">
+        </p>
+        <p class="text-center text-base align-middle pb-1"> © Eslem Ouederni 2022</p>
+      </footer>
     </div>
 
     <!-- <script src="https://unpkg.com/@barba/core"></script> -->
