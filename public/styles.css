@@ -33003,8 +33003,7 @@ video {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  margin-left: 2.75rem;
-  text-align: center;
+  margin-left: 1rem;
   letter-spacing: 0.05em;
 }
 
@@ -33012,6 +33011,7 @@ video {
   .link{
     font-size: 1.125rem;
     line-height: 1.75rem;
+    margin-left: 2.75rem;
   }
 }
 
@@ -33040,7 +33040,7 @@ video {
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 2.25rem;
-  margin-left: 3.5rem;
+  margin-left: 1rem;
   margin-top: 5rem;
   --tw-text-opacity: 1;
   color: rgba(255, 46, 0, var(--tw-text-opacity));
@@ -33050,7 +33050,7 @@ video {
 
 @media (min-width: 768px){
   .title{
-    margin-left: 9rem;
+    margin-left: 3.5rem;
   }
 }
 
@@ -33157,9 +33157,10 @@ video {
 }
 
 .introduction {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   line-height: 2.5rem;
+  margin-left: 1rem;
   --tw-text-opacity: 1;
   color: rgba(0, 18, 32, var(--tw-text-opacity));
   width: 24rem;
@@ -33167,9 +33168,33 @@ video {
 
 @media (min-width: 768px){
   .introduction{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 35rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .introduction{
     font-size: 1.875rem;
     line-height: 2.25rem;
     width: 47rem;
+  }
+}
+
+.skill {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+  letter-spacing: 0.025em;
+  width: auto;
+}
+
+@media (min-width: 768px){
+  .skill{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -33189,12 +33214,17 @@ nav {
   background-color: #687871;
 }
 
+footer {
+  background-color: #687871;
+}
+
 .index {
   background-image: url("img/separator.png");
   background-repeat: repeat-x;
   height: 10px;
   border: 0;
   display: block;
+  z-index: 100000;
 }
 
 .backgroundimg {
