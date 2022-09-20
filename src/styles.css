@@ -4,13 +4,13 @@
 @tailwind utilities;
 
 .link {
-  @apply font-bold ml-11 text-sm md:text-lg text-center tracking-wider;
+  @apply font-bold ml-4 text-sm md:text-lg md:ml-11 tracking-wider;
 }
 .paragraph {
   @apply w-auto md:w-96 h-auto font-bold text-xl md:text-2xl ml-14 md:ml-36 mt-8 tracking-wide mr-1;
 }
 .title {
-  @apply font-bold text-secondary-200 text-3xl uppercase ml-14 md:ml-36 mt-20 tracking-wider;
+  @apply font-bold text-secondary-200 text-3xl uppercase ml-4 md:ml-14 mt-20 tracking-wider;
 }
 .img-gray {
   @apply w-72 h-48 md:w-600 md:h-400 rounded-md md:mr-36 md:mt-14 relative;
@@ -32,7 +32,10 @@
   text-decoration: underline;
 }
 .introduction {
-  @apply w-96 text-2xl text-secondary-300 md:w-700 md:text-3xl leading-10;
+  @apply w-96 text-xl text-secondary-300 leading-10 ml-4 md:w-600 md:text-2xl lg:w-700 lg:text-3xl;
+}
+.skill {
+  @apply w-auto font-bold text-xl md:text-2xl mt-2 tracking-wide;
 }
 html {
   scroll-behavior: smooth;
@@ -45,6 +48,9 @@ body {
   opacity: 78%;
 }
 nav {
+  background-color: #687871;
+}
+footer {
   background-color: #687871;
 }
 .index {
