@@ -11,8 +11,7 @@ module.exports = {
         primary: "#FFFFFF",
         secondary: {
           100: "#FF2E00", //orange light
-          200: "#FF2E00", //orange dark
-          300: "#001220", //dark blue
+          200: "#FAA307", //orange dark
         },
       },
       fontFamily: {
@@ -28,9 +27,7 @@ module.exports = {
       },
       colors: {
         secondary: {
-          100: "#FF2E00",
-          200: "#FF2E00",
-          300: "#001220",
+          100: "#03071e",
         },
       },
     },
