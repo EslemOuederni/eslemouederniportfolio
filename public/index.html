@@ -3,9 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Isslem Ouederni's Portfolio" />
+    <meta name="theme-color" content="#FAA307" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <link
+      rel="preload"
+      href="styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="styles.css" /></noscript>
+    <link rel="apple-touch-icon" href="./img/maskable_icon_x48.png" />
     <title>Eslem Ouederni</title>
   </head>
 
@@ -47,7 +55,10 @@
           </p>
           <div class="flex flex-row mt-6 mb-11 ml-2">
             <div class="github">
-              <a href="https://github.com/EslemOuederni" target="_blank"
+              <a
+                href="https://github.com/EslemOuederni"
+                aria-label="github"
+                target="_blank"
                 ><span
                   class="iconify hover:text-secondary-200"
                   data-inline="false"
@@ -57,7 +68,10 @@
               ></a>
             </div>
             <div class="linkedin">
-              <a href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"
+              <a
+                href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"
+                aria-label="linkedin"
+                target="_blank"
                 ><span
                   class="iconify hover:text-secondary-200"
                   data-inline="false"
@@ -73,7 +87,11 @@
               web
               <span class="font-serif">& </span>mobile development. I'm a
               computer science student and a freelance teacher with
-              <a class="link-undeline" href="https://codefirstgirls.com/">
+              <a
+                class="link-undeline"
+                href="https://codefirstgirls.com/"
+                aria-label="Code First Girls website"
+              >
                 Code First Girls</a
               >.
             </p>
@@ -108,22 +126,20 @@
           data-aos="fade-in"
           data-aos-duration="1500"
         >
-          <h2
+          <h1
             class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase"
           >
             About
-          </h2>
+          </h1>
           <div class="absolute top-5 left-4">
-            <h2 class="lg:text-5xl text-4xl font-bold uppercase">
-              About Me ...
-            </h2>
+            <p class="lg:text-5xl text-4xl font-bold uppercase">About Me ...</p>
           </div>
           <div
             class="flex flex-col ml-2 md:flex-row justify-around md:mt-12 lg:flex-row"
           >
             <div class="education">
               <div class="title">
-                <h3 class="text-3xl text-secondary-200">Education</h3>
+                <h2 class="text-3xl text-secondary-200">Education</h2>
               </div>
               <div class="2018 flex flex-row">
                 <div>
@@ -157,7 +173,7 @@
             </div>
             <div class="experience">
               <div class="title">
-                <h3 class="text-3xl text-secondary-200">Experience</h3>
+                <h2 class="text-3xl text-secondary-200">Experience</h2>
               </div>
               <div class="2021 flex flex-row">
                 <div>
@@ -187,6 +203,7 @@
           </div>
         </div>
       </section>
+      <hr class="index" />
       <!-- works -->
       <section class="">
         <div class="works mt-12 md:mt-20" id="works">
@@ -206,7 +223,7 @@
           <!-- EDSpace -->
           <div class="proj" data-aos="fade-in" data-aos-duration="1500">
             <div class="title-paragraph">
-              <h3 class="title">EdSpace</h3>
+              <h2 class="title">EdSpace</h2>
               <p class="paragraph">
                 An Educational Space for students. Developed with other
                 classmates for a university project. <br />
@@ -218,6 +235,7 @@
                 <div class="flex flex-row items-center mr-2 md:mr-8">
                   <a
                     href="https://github.com/esprit-idev/edspace_symfony"
+                    aria-label="EdSpace repository"
                     target="_blank"
                     ><span
                       class="iconify hover:text-secondary-200"
@@ -227,18 +245,6 @@
                     ></span
                   ></a>
                   <p class="text-2xl">Github</p>
-                </div>
-                <div class="flex flex-row items-center">
-                  <a
-                    href="https://eslemouederni.github.io/eslemouederniportfolio/public/"
-                    ><span
-                      class="iconify hover:text-secondary-200"
-                      data-inline="false"
-                      data-icon="fluent:live-20-regular"
-                      style="font-size: 50px"
-                    ></span
-                  ></a>
-                  <p class="text-2xl ml-2">Live</p>
                 </div>
               </div>
             </div>
@@ -265,7 +271,7 @@
           <!-- Personal portfolio -->
           <div class="proj" data-aos="fade-in" data-aos-duration="1500">
             <div class="title-paragraph">
-              <h3 class="title">Personal Portfolio</h3>
+              <h2 class="title">Personal Portfolio</h2>
               <p class="paragraph">
                 A personal Portfolio to share my works with others. <br />
                 Built with : <br />
@@ -275,6 +281,7 @@
                 <div class="flex flex-row items-center mr-2 md:mr-8">
                   <a
                     href="https://github.com/EslemOuederni/eslemouederniportfolio"
+                    aria-label="portfolio repository"
                     target="_blank"
                     ><span
                       class="iconify hover:text-secondary-200"
@@ -287,7 +294,8 @@
                 </div>
                 <div class="flex flex-row items-center">
                   <a
-                    href="https://eslemouederni.github.io/eslemouederniportfolio/public/"
+                    href="https://eslemouederniportfolio.vercel.app/"
+                    aria-label="portoflio"
                     ><span
                       class="iconify hover:text-secondary-200"
                       data-inline="false"
@@ -322,7 +330,7 @@
           <!-- vokart -->
           <div class="proj" data-aos="fade-in" data-aos-duration="1500">
             <div class="title-paragraph">
-              <h3 class="title">Vokart</h3>
+              <h class="title">Vokart</h>
               <p class="paragraph">
                 A website for ceramics, that was designed by a friend of mine.
                 Still not responsive. <br />
@@ -333,6 +341,7 @@
                 <div class="flex flex-row items-center mr-2 md:mr-8">
                   <a
                     href="https://github.com/EslemOuederni/Vokart"
+                    aria-label="Vokart repository"
                     target="_blank"
                     ><span
                       class="iconify hover:text-secondary-200"
@@ -346,6 +355,7 @@
                 <div class="flex flex-row items-center">
                   <a
                     href="https://eslemouederni.github.io/Vokart/"
+                    aria-label="Vokart live"
                     target="_blank"
                     ><span
                       class="iconify hover:text-secondary-200"
@@ -383,7 +393,7 @@
           <!-- app -->
           <div class="proj" data-aos="fade-in" data-aos-duration="1500">
             <div class="title-paragraph">
-              <h3 class="title">My Space</h3>
+              <h2 class="title">My Space</h2>
               <p
                 class="paragraph text-xl md:text-2xl ml-24 m:ml-36 mt-8 tracking-wide"
               >
@@ -400,6 +410,7 @@
                 <div class="flex flex-row items-center mr-2 md:mr-8">
                   <a
                     href="https://github.com/oueslatimohamed/PMM/"
+                    aria-label="My Space repo"
                     target="_blank"
                     ><span
                       class="iconify hover:text-secondary-200"
@@ -436,7 +447,7 @@
         <!-- Kadya -->
         <div class="proj" data-aos="fade-in" data-aos-duration="1500">
           <div class="title-paragraph">
-            <h3 class="title">Kadya</h3>
+            <h2 class="title">Kadya</h2>
             <p class="paragraph">
               An app to handle consummer's shopping. It was build as part of
               last year of studies internship, in a group of four people. <br />
@@ -446,7 +457,8 @@
             <div class="flex flex-row items-center justify-center w-auto">
               <div class="flex flex-row items-center mr-2 md:mr-8">
                 <a
-                  href="https://github.com/EslemOuederni/eslemouederniportfolio"
+                  href="https://github.com/EslemOuederni/SmartList"
+                  aria-label="Kadya repo"
                   target="_blank"
                   ><span
                     class="iconify hover:text-secondary-200"
@@ -456,18 +468,6 @@
                   ></span
                 ></a>
                 <p class="text-2xl">Github</p>
-              </div>
-              <div class="flex flex-row items-center">
-                <a
-                  href="https://eslemouederni.github.io/eslemouederniportfolio/public/"
-                  ><span
-                    class="iconify hover:text-secondary-200"
-                    data-inline="false"
-                    data-icon="fluent:live-20-regular"
-                    style="font-size: 50px"
-                  ></span
-                ></a>
-                <p class="text-2xl ml-2">Live</p>
               </div>
             </div>
           </div>
@@ -492,49 +492,51 @@
           </div>
         </div>
       </section>
+      <hr class="index mt-32" />
+
       <!-- skills -->
       <section class="skills lg:h-screen" id="skills">
         <div class="relative mt-32" data-aos="fade-in" data-aos-duration="1500">
-          <h2
+          <h1
             class="lg:text-6xl text-5xl opacity-20 font-bold text-secondary-200 uppercase"
           >
             Skills
-          </h2>
+          </h1>
           <div class="absolute top-5 left-4">
-            <h2 class="lg:text-5xl text-4xl font-bold uppercase">
+            <p class="lg:text-5xl text-4xl font-bold uppercase">
               My Skills ...
-            </h2>
+            </p>
           </div>
           <div
             class="flex flex-col items-center text-center mt-12 md:flex-row md:justify-evenly md:items-center"
           >
             <div class="flex flex-col">
-              <h3 class="text-3xl text-secondary-200 font-medium">FRONTEND</h3>
-              <p class="leading-10 text-2xl">
+              <h2 class="text-3xl text-secondary-200 font-medium">FRONTEND</h2>
+              <div class="leading-10 text-2xl">
                 <div class="skill">html5</div>
                 <div class="skill">Javascript</div>
                 <div class="skill">React Native</div>
-              </p>
+              </div>
             </div>
             <div class="flex flex-col">
-              <h3 class="text-3xl text-secondary-200 font-medium">BACKEND</h3>
-              <p class="leading-10 text-xl">
-                <div  class="skill">Node</div>
+              <h2 class="text-3xl text-secondary-200 font-medium">BACKEND</h2>
+              <div class="leading-10 text-xl">
+                <div class="skill">Node</div>
                 <div class="skill">Java</div>
                 <div class="skill">JavaFX</div>
                 <div class="skill">Symfony</div>
                 <div class="skill">Express</div>
                 <div class="skill">MySQL</div>
                 <div class="skill">MongoDB</div>
-              </p>
+              </div>
             </div>
             <div class="flex flex-col">
-              <h3 class="text-3xl text-secondary-200 font-medium">TOOLS</h3>
-              <p class="leading-10 text-xl">
+              <h2 class="text-3xl text-secondary-200 font-medium">TOOLS</h2>
+              <div class="leading-10 text-xl">
                 <div class="skill">Git</div>
                 <div class="skill">Vscode</div>
                 <div class="skill">Figma</div>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -543,7 +545,10 @@
       <footer class="h-auto">
         <div class="flex flex-row justify-center mt-6 mb-2">
           <div class="github">
-            <a href="https://github.com/EslemOuederni" target="_blank"
+            <a
+              href="https://github.com/EslemOuederni"
+              target="_blank"
+              aria-label="github"
               ><span
                 class="iconify hover:text-secondary-200"
                 data-inline="false"
@@ -553,7 +558,9 @@
             ></a>
           </div>
           <div class="linkedin">
-            <a href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"
+            <a
+              href="https://www.linkedin.com/in/eslem-ouederni-858a13182/"
+              aria-label="linkedin"
               ><span
                 class="iconify hover:text-secondary-200"
                 data-inline="false"
@@ -563,17 +570,31 @@
             </a>
           </div>
         </div>
-        <p class="text-center text-base align-middle">Made with 
-          <img class="inline-block" src="./img/coding-svgrepo-com.svg" alt="">
+        <p class="text-center text-base align-middle">
+          Made with
+          <img class="inline-block" src="./img/coding-svgrepo-com.svg" alt="" />
         </p>
-        <p class="text-center text-base align-middle pb-1"> © Eslem Ouederni 2022</p>
+        <p class="text-center text-base align-middle pb-1">
+          © Eslem Ouederni 2022
+        </p>
       </footer>
     </div>
 
     <!-- <script src="https://unpkg.com/@barba/core"></script> -->
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"
+      defer
+    ></script>
+
+    <script
+      src="https://code.iconify.design/1/1.0.6/iconify.min.js"
+      defer
+    ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      defer
+    ></script>
     <script>
       AOS.init();
     </script>
