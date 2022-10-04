@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .link {
-  @apply font-bold ml-4 text-sm md:text-lg md:ml-11 tracking-wider;
+  @apply font-bold ml-4 text-sm md:text-lg md:ml-11 tracking-widest;
 }
 .paragraph {
   @apply w-auto md:w-96 h-auto font-bold text-xl md:text-2xl ml-14 md:ml-36 mt-8 tracking-wide mr-1;
@@ -24,15 +24,13 @@
 .labels {
   @apply tracking-wide block mb-4 font-bold uppercase text-xl md:text-2xl sm:text-sm text-white;
 }
-.box {
-  @apply w-60 md:w-500 h-14 rounded border-2 border-white bg-transparent focus:border-secondary-300 outline-none p-4;
-}
+
 .links:hover {
   text-decoration-color: #ff2e00 !important;
   text-decoration: underline;
 }
 .introduction {
-  @apply w-96 text-xl text-secondary-300 leading-10 ml-4 md:w-600 md:text-2xl lg:w-700 lg:text-3xl;
+  @apply w-96 text-xl text-primary leading-10 ml-4 md:w-600 md:text-2xl lg:w-700 lg:text-3xl;
 }
 .skill {
   @apply w-auto font-bold text-xl md:text-2xl mt-2 tracking-wide;
@@ -43,41 +41,27 @@ html {
 body {
   font-family: "Playfair Display", serif, Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #7d938a;
+  background-color: #03071e;
   color: #fffffa;
   opacity: 78%;
-}
-nav {
-  background-color: #687871;
-}
-footer {
-  background-color: #687871;
 }
 .index {
   background-image: url("img/separator.png");
   background-repeat: repeat-x;
   height: 10px;
+  width: 50%;
   border: 0;
   display: block;
   z-index: 100000;
-}
-.backgroundimg {
-  background-image: url("img/bg-black.svg");
-}
-.backgroundimgCurved {
-  background-image: url("img/backgroundCurves.svg");
+  margin-left: auto;
+  margin-right: auto;
 }
 .link-undeline {
   background-image: linear-gradient(
     0deg,
-    rgb(214, 85, 46) 0,
-    rgba(155, 38, 22, 0.4) 30%,
+    #d00000 0,
+    #6a040f 30%,
     transparent 40%,
     transparent
   );
-}
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: smooth;
-  }
 }
