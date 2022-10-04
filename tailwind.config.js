@@ -10,7 +10,6 @@ module.exports = {
       textColor: {
         primary: "#FFFFFF",
         secondary: {
-          100: "#FF2E00", //orange light
           200: "#FAA307", //orange dark
         },
       },

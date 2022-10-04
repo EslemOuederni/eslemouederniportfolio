@@ -25683,7 +25683,7 @@ video {
 
 .text-secondary-100{
   --tw-text-opacity: 1;
-  color: rgba(255, 46, 0, var(--tw-text-opacity));
+  color: rgba(3, 7, 30, var(--tw-text-opacity));
 }
 
 .text-secondary-200{
@@ -26116,7 +26116,7 @@ video {
 
 .group:hover .group-hover\:text-secondary-100{
   --tw-text-opacity: 1;
-  color: rgba(255, 46, 0, var(--tw-text-opacity));
+  color: rgba(3, 7, 30, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-secondary-200{
@@ -26549,7 +26549,7 @@ video {
 
 .focus-within\:text-secondary-100:focus-within{
   --tw-text-opacity: 1;
-  color: rgba(255, 46, 0, var(--tw-text-opacity));
+  color: rgba(3, 7, 30, var(--tw-text-opacity));
 }
 
 .focus-within\:text-secondary-200:focus-within{
@@ -26982,7 +26982,7 @@ video {
 
 .hover\:text-secondary-100:hover{
   --tw-text-opacity: 1;
-  color: rgba(255, 46, 0, var(--tw-text-opacity));
+  color: rgba(3, 7, 30, var(--tw-text-opacity));
 }
 
 .hover\:text-secondary-200:hover{
@@ -27415,7 +27415,7 @@ video {
 
 .focus\:text-secondary-100:focus{
   --tw-text-opacity: 1;
-  color: rgba(255, 46, 0, var(--tw-text-opacity));
+  color: rgba(3, 7, 30, var(--tw-text-opacity));
 }
 
 .focus\:text-secondary-200:focus{
@@ -32776,8 +32776,6 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin-bottom: 1rem;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
   text-transform: uppercase;
   letter-spacing: 0.025em;
 }
@@ -32807,8 +32805,6 @@ video {
   line-height: 1.75rem;
   line-height: 2.5rem;
   margin-left: 1rem;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
   width: 24rem;
 }
 
@@ -32852,7 +32848,7 @@ body {
   font-family: "Playfair Display", serif, Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #03071e;
-  color: #fffffa;
+  color: #ffffff;
 }
 
 .index {
@@ -58000,7 +57996,7 @@ body {
 
   .sm\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .sm\:text-secondary-200{
@@ -58433,7 +58429,7 @@ body {
 
   .group:hover .sm\:group-hover\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-secondary-200{
@@ -58866,7 +58862,7 @@ body {
 
   .sm\:focus-within\:text-secondary-100:focus-within{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-secondary-200:focus-within{
@@ -59299,7 +59295,7 @@ body {
 
   .sm\:hover\:text-secondary-100:hover{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-secondary-200:hover{
@@ -59732,7 +59728,7 @@ body {
 
   .sm\:focus\:text-secondary-100:focus{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-secondary-200:focus{
@@ -90047,7 +90043,7 @@ body {
 
   .md\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .md\:text-secondary-200{
@@ -90480,7 +90476,7 @@ body {
 
   .group:hover .md\:group-hover\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-secondary-200{
@@ -90913,7 +90909,7 @@ body {
 
   .md\:focus-within\:text-secondary-100:focus-within{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-secondary-200:focus-within{
@@ -91346,7 +91342,7 @@ body {
 
   .md\:hover\:text-secondary-100:hover{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-secondary-200:hover{
@@ -91779,7 +91775,7 @@ body {
 
   .md\:focus\:text-secondary-100:focus{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-secondary-200:focus{
@@ -122094,7 +122090,7 @@ body {
 
   .lg\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .lg\:text-secondary-200{
@@ -122527,7 +122523,7 @@ body {
 
   .group:hover .lg\:group-hover\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-secondary-200{
@@ -122960,7 +122956,7 @@ body {
 
   .lg\:focus-within\:text-secondary-100:focus-within{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-secondary-200:focus-within{
@@ -123393,7 +123389,7 @@ body {
 
   .lg\:hover\:text-secondary-100:hover{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-secondary-200:hover{
@@ -123826,7 +123822,7 @@ body {
 
   .lg\:focus\:text-secondary-100:focus{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-secondary-200:focus{
@@ -154141,7 +154137,7 @@ body {
 
   .xl\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .xl\:text-secondary-200{
@@ -154574,7 +154570,7 @@ body {
 
   .group:hover .xl\:group-hover\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-secondary-200{
@@ -155007,7 +155003,7 @@ body {
 
   .xl\:focus-within\:text-secondary-100:focus-within{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-secondary-200:focus-within{
@@ -155440,7 +155436,7 @@ body {
 
   .xl\:hover\:text-secondary-100:hover{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-secondary-200:hover{
@@ -155873,7 +155869,7 @@ body {
 
   .xl\:focus\:text-secondary-100:focus{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-secondary-200:focus{
@@ -186188,7 +186184,7 @@ body {
 
   .\32xl\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .\32xl\:text-secondary-200{
@@ -186621,7 +186617,7 @@ body {
 
   .group:hover .\32xl\:group-hover\:text-secondary-100{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-secondary-200{
@@ -187054,7 +187050,7 @@ body {
 
   .\32xl\:focus-within\:text-secondary-100:focus-within{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-secondary-200:focus-within{
@@ -187487,7 +187483,7 @@ body {
 
   .\32xl\:hover\:text-secondary-100:hover{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-secondary-200:hover{
@@ -187920,7 +187916,7 @@ body {
 
   .\32xl\:focus\:text-secondary-100:focus{
     --tw-text-opacity: 1;
-    color: rgba(255, 46, 0, var(--tw-text-opacity));
+    color: rgba(3, 7, 30, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-secondary-200:focus{
