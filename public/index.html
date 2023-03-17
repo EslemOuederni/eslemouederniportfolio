@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles.css" />
     <noscript><link rel="stylesheet" href="./styles.css" /></noscript>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
     <link rel="apple-touch-icon" href="./img/maskable_icon_x48.png" />
     <title>Eslem Ouederni</title>
   </head>
 
-  <body class="content-center">
+  <body class="bg-secondary-100">
     <div class="backgroundTopCurved" id="up">
       <nav
-        class="flex flex-row justify-between items-center p-4 mt-0 w-full z-10 top-0"
+        class="nav flex flex-row justify-between items-center px-4 mt-0 w-full z-10 top-0 h-20 fixed"
+        id="nav"
       >
         <div class="link links">
           <a href="./index.html" class="hidden md:text-2xl md:block"
@@ -26,9 +32,9 @@
           >
         </div>
         <div class="flex flex-row" id="navlinks">
-          <div class="link links"><a href="#about">ABOUT ME</a></div>
-          <div class="link links"><a href="#works">WORK</a></div>
-          <div class="link links"><a href="#skills">SKILLS</a></div>
+          <div class="link links navlink"><a href="#about">ABOUT ME</a></div>
+          <div class="link links navlink"><a href="#works">WORK</a></div>
+          <div class="link links navlink"><a href="#skills">SKILLS</a></div>
         </div>
       </nav>
       <div class="mx-auto lg:h-screen md:mt-48 max-w-5xl">
@@ -213,16 +219,22 @@
             </div>
           </div>
           <!-- projects -->
-          <!-- EDSpace -->
+          <!-- HayaTN -->
           <div class="proj" data-aos="fade-in" data-aos-duration="1500">
             <div class="title-paragraph">
-              <h2 class="title">EdSpace</h2>
+              <h2 class="title">Haya.TN</h2>
               <p class="paragraph">
-                An Educational Space for students. Developed with other
-                classmates for a university project. <br />
-                It's on web, mobile and desktop <br />
+                A transportation system dashboard, for ticket and trips
+                management. <br />
+                It features different data visualizations and tables to help the
+                admin manage the system. <br />
+                It's still in development. <br />
                 Built with : <br />
-                Symfony, JS , CSS, JavaFX, MySQL
+                <span class="text-sm">React.js</span>
+                <span class="text-sm">Node.js</span>
+                <span class="text-sm">Express.js</span>
+                <span class="text-sm">MongoDB</span>
+                <span class="text-sm">Tailwindcss </span>
               </p>
               <div class="flex flex-row items-center justify-center w-auto">
                 <div class="flex flex-row items-center mr-2 md:mr-8">
@@ -249,13 +261,63 @@
               >
                 <img
                   class="object-fit max-h-full max-w-full content-center"
-                  src="./img/javapp.svg"
+                  src="./img/haya.svg"
                   style="width: 100%; height: auto"
                   alt=""
                 />
                 <div class="bottom-2 md:-right-16 absolute">
                   <h1 class="font-bold text-7xl md:text-9xl text-secondary-200">
                     01
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- EDSpace -->
+          <div class="proj" data-aos="fade-in" data-aos-duration="1500">
+            <div class="title-paragraph">
+              <h2 class="title">EdSpace</h2>
+              <p class="paragraph">
+                An Educational Space for students. Developed with other
+                classmates for a university project. <br />
+                It's on web, mobile and desktop <br />
+                Built with : <br />
+                <span class="text-sm"> Symfony </span>
+                <span class="text-sm"> vanillaJs</span>
+                <span class="text-sm">css</span>
+                <span class="text-sm">JavaFX</span>
+                <span class="text-sm">MySQL</span>
+              </p>
+              <div class="flex flex-row items-center ml-14 md:ml-32">
+                <a
+                  href="https://github.com/esprit-idev/edspace_symfony"
+                  aria-label="EdSpace repository"
+                  target="_blank"
+                  ><span
+                    class="iconify hover:text-secondary-200"
+                    data-inline="false"
+                    data-icon="ei:sc-github"
+                    style="font-size: 75px"
+                  ></span
+                ></a>
+                <p class="text-2xl">Github</p>
+              </div>
+            </div>
+            <div class="project-image m-auto md:ml-42">
+              <div
+                class="img-gray flex"
+                data-aos="fade-left"
+                data-aos-duration="500"
+              >
+                <img
+                  class="object-fit max-h-full max-w-full content-center"
+                  src="./img/javapp.svg"
+                  style="width: 100%; height: auto"
+                  alt=""
+                />
+                <div class="bottom-2 md:-right-16 absolute">
+                  <h1 class="font-bold text-7xl md:text-9xl text-secondary-200">
+                    02
                   </h1>
                 </div>
               </div>
@@ -268,7 +330,9 @@
               <p class="paragraph">
                 A personal Portfolio to share my works with others. <br />
                 Built with : <br />
-                HTML5, Tailwind CSS, JS
+                <span class="text-sm"> HTML5 </span>
+                <span class="text-sm"> Tailwind CSS</span>
+                <span class="text-sm">JS</span>
               </p>
               <div class="flex flex-row items-center justify-center w-auto">
                 <div class="flex flex-row items-center mr-2 md:mr-8">
@@ -314,128 +378,15 @@
                 />
                 <div class="bottom-2 md:-right-16 absolute">
                   <h1 class="font-bold text-7xl md:text-9xl text-secondary-200">
-                    02
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- vokart -->
-          <div class="proj" data-aos="fade-in" data-aos-duration="1500">
-            <div class="title-paragraph">
-              <h class="title">Vokart</h>
-              <p class="paragraph">
-                A website for ceramics, that was designed by a friend of mine.
-                Still not responsive. <br />
-                Built with : <br class="text-secondary-200" />
-                HTML5, CSS, Bootstrap
-              </p>
-              <div class="flex flex-row items-center justify-center w-auto">
-                <div class="flex flex-row items-center mr-2 md:mr-8">
-                  <a
-                    href="https://github.com/EslemOuederni/Vokart"
-                    aria-label="Vokart repository"
-                    target="_blank"
-                    ><span
-                      class="iconify hover:text-secondary-200"
-                      data-inline="false"
-                      data-icon="ei:sc-github"
-                      style="font-size: 75px"
-                    ></span
-                  ></a>
-                  <p class="text-2xl">Github</p>
-                </div>
-                <div class="flex flex-row items-center">
-                  <a
-                    href="https://eslemouederni.github.io/Vokart/"
-                    aria-label="Vokart live"
-                    target="_blank"
-                    ><span
-                      class="iconify hover:text-secondary-200"
-                      data-inline="false"
-                      data-icon="fluent:live-20-regular"
-                      style="font-size: 50px"
-                    ></span
-                  ></a>
-                  <p class="text-2xl ml-2">Live</p>
-                </div>
-              </div>
-            </div>
-            <div class="project-image m-auto md:ml-42">
-              <div
-                class="img-gray w-1/2"
-                data-aos="fade-left"
-                data-aos-duration="500"
-              >
-                <div>
-                  <img
-                    class="object-fit max-h-full max-w-full content-center"
-                    src="./img/Vokart - Dark.svg"
-                    style="width: 100%; height: auto"
-                    alt=""
-                  />
-                </div>
-                <div class="bottom-2 md:-right-12 absolute">
-                  <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">
                     03
                   </h1>
                 </div>
               </div>
             </div>
           </div>
+          <!-- vokart -->
+
           <!-- app -->
-          <div class="proj" data-aos="fade-in" data-aos-duration="1500">
-            <div class="title-paragraph">
-              <h2 class="title">My Space</h2>
-              <p
-                class="paragraph text-xl md:text-2xl ml-24 m:ml-36 mt-8 tracking-wide"
-              >
-                An educational android mobile game.Built with a friend for a
-                university android class project. It has the list of all planets
-                in the solar system with informations about each one of them.
-                Also a quiz to test the knowledge of the kids about what they
-                have learnt so far. <br />
-                Built with : <br />
-                Android Studio, Java, SQLite
-              </p>
-              <br />
-              <div class="flex flex-row items-center justify-center w-auto">
-                <div class="flex flex-row items-center mr-2 md:mr-8">
-                  <a
-                    href="https://github.com/oueslatimohamed/PMM/"
-                    aria-label="My Space repo"
-                    target="_blank"
-                    ><span
-                      class="iconify hover:text-secondary-200"
-                      data-inline="false"
-                      data-icon="ei:sc-github"
-                      style="font-size: 75px"
-                    ></span
-                  ></a>
-                  <p class="text-2xl">Github</p>
-                </div>
-              </div>
-            </div>
-            <div class="project-image m-auto md:ml-42">
-              <div
-                class="img-gray"
-                data-aos="fade-left"
-                data-aos-duration="500"
-              >
-                <img
-                  class="object-fit max-h-full max-w-full content-center"
-                  src="./img/iPhone X - Silver.svg"
-                  style="width: 100%; height: auto"
-                  alt=""
-                />
-                <div class="bottom-2 md:-right-16 absolute">
-                  <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">
-                    04
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <!-- Kadya -->
         <div class="proj" data-aos="fade-in" data-aos-duration="1500">
@@ -445,23 +396,22 @@
               An app to handle consummer's shopping. It was build as part of
               last year of studies internship, in a group of four people. <br />
               Built with : <br />
-              React Native, Flask
+              <span class="text-sm"> React Native </span>
+              <span class="text-sm"> Flask</span>
             </p>
-            <div class="flex flex-row items-center justify-center w-auto">
-              <div class="flex flex-row items-center mr-2 md:mr-8">
-                <a
-                  href="https://github.com/EslemOuederni/SmartList"
-                  aria-label="Kadya repo"
-                  target="_blank"
-                  ><span
-                    class="iconify hover:text-secondary-200"
-                    data-inline="false"
-                    data-icon="ei:sc-github"
-                    style="font-size: 75px"
-                  ></span
-                ></a>
-                <p class="text-2xl">Github</p>
-              </div>
+            <div class="flex flex-row items-center mr-2 md:ml-32">
+              <a
+                href="https://github.com/EslemOuederni/SmartList"
+                aria-label="Kadya repo"
+                target="_blank"
+                ><span
+                  class="iconify hover:text-secondary-200"
+                  data-inline="false"
+                  data-icon="ei:sc-github"
+                  style="font-size: 75px"
+                ></span
+              ></a>
+              <p class="text-2xl">Github</p>
             </div>
           </div>
           <div class="project-image m-auto md:ml-42">
@@ -478,7 +428,7 @@
               />
               <div class="bottom-2 md:-right-16 absolute">
                 <h1 class="font-bold text-6xl md:text-9xl text-secondary-200">
-                  05
+                  04
                 </h1>
               </div>
             </div>
@@ -584,12 +534,44 @@
       defer
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       defer
-    ></script>
+    ></script> -->
+
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      // update background color when scrolling
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+          console.log("scrolling");
+
+          $(".nav").css("background", "#030e1e");
+        } else {
+          $(".nav").css("background", "transparent");
+        }
+      });
+    </script>
+    <script>
+      // scroll on top of the sections calc header
+      $(document).ready(function () {
+        $(".navlink").each(function () {
+          $(this).click(function () {
+            console.log("clicked");
+            var sectionToScrollTo = $($(this).children("a").attr("href"));
+            $("html, body").animate(
+              {
+                scrollTop: $(sectionToScrollTo).offset().top - 80,
+              },
+              1000
+            );
+          });
+        });
+      });
     </script>
   </body>
 </html>
