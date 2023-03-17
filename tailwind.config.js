@@ -3,9 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        "black-pattern": "url('/public/img/bg-black.svg')",
-      }),
+      //backgroundImage: (theme) => ({
+      // "black-pattern": "url('/public/img/bg-black.svg')",
+      // }),
       textColor: (theme) => theme("colors"),
       textColor: {
         primary: "#FFFFFF",
